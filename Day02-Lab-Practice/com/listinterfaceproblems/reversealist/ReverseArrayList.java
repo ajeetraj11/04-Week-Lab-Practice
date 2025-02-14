@@ -2,16 +2,10 @@ package com.listinterfaceproblems.reversealist;
 
 import java.util.*;
 
-/**
- * Class to reverse the elements of an ArrayList.
- */
+// Class to reverse the elements of an ArrayList.
 public class ReverseArrayList {
 
-	/**
-	 * Reverses the elements of an ArrayList without using built-in reverse methods.
-	 * @param list The input ArrayList to be reversed.
-	 * @return A new ArrayList with reversed elements.
-	 */
+	// Reverses the elements of an ArrayList without using built-in reverse methods.
 	public static List<Integer> reverse(List<Integer> list) {
 		// Create an empty ArrayList to store the reversed elements
 		List<Integer> reversedList = new ArrayList<>();
