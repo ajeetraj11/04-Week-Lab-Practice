@@ -2,6 +2,7 @@ package com.reflection.methodexecutiontiming;
 
 public class Main {
 	public static void main(String[] args) {
+		
 		// Create an instance of the test class
 		TestClass testInstance = new TestClass();
 

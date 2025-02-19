@@ -2,6 +2,7 @@ package com.reflection.methodexecutiontiming;
 
 // Sample class with different methods to measure execution time
 public class TestClass {
+	
 	// Method 1: Simple quick operation
 	public void quickMethod() {
 		int sum = 0;

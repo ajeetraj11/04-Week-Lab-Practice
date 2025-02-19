@@ -9,6 +9,7 @@ class MethodTimerTest {
 
     @Test
     void testQuickMethodExecutionTime() {
+
         // Given: An instance of TestClass
         TestClass testInstance = new TestClass();
 
@@ -50,7 +51,8 @@ class MethodTimerTest {
             MethodTimer.executeWithTiming(testInstance, "nonExistentMethod");
             fail("MethodTimer should throw an error for non-existent methods.");
         } catch (Exception e) {
-            assertTrue(e.getMessage().contains("Error"), "Expected an error message when calling a non-existent method.");
+            assertTrue(e.getMessage().contains("Error"),
+                    "Expected an error message when calling a non-existent method.");
         }
     }
 }
